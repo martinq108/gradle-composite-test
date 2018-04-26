@@ -1,0 +1,34 @@
+plugins {
+	id 'idea'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+wrapper {
+	distributionType = Wrapper.DistributionType.ALL
+}
+
+//task classes {
+//	project.subprojects.each { dependsOn it.getTasksByName("classes", false) }
+//}
+//
+//task testClasses {
+//	project.subprojects.each { dependsOn it.getTasksByName("testClasses", false) }
+//}
+//
+//task clean {
+//	project.subprojects.each { dependsOn it.getTasksByName("clean", false) }
+//}
+//
+//task build {
+//	project.subprojects.each { dependsOn it.getTasksByName("build", false) }
+//}
+//
+//task test {
+//	project.subprojects.each { dependsOn it.getTasksByName("test", false) }
+//}
+//
+//task cleanTest {
+//	project.subprojects.each { dependsOn it.getTasksByName("cleanTest", false) }
+//}
